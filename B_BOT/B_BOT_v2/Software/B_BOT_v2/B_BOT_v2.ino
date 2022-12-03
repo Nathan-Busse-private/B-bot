@@ -1,5 +1,4 @@
-//Viral Science www.youtube.com/c/viralscience  www.viralsciencecreativity.com
-//Self Balancing Robot
+
 #include <PID_v1.h>
 #include <LMotorController.h>
 #include "I2Cdev.h"
@@ -45,8 +44,8 @@ double motorSpeedFactorRight = 0.5;
 int ENA = 5;
 int IN1 = 6;
 int IN2 = 7;
-int IN3 = 9;
-int IN4 = 8;
+int IN3 = 8;
+int IN4 = 9;
 int ENB = 10;
 LMotorController motorController(ENA, IN1, IN2, ENB, IN3, IN4, motorSpeedFactorLeft, motorSpeedFactorRight);
 
