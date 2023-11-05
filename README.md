@@ -1,2 +1,2 @@
-# B-bot
-Self balancing robot
+# B.R.E.N.T
+Balancing Robot Experiment
